@@ -94,7 +94,7 @@ mkdir -p ~/apk_analysis/$(date +%Y-%m-%d)
 cd ~/apk_analysis/$(date +%Y-%m-%d)
 ```
 
-> 📸 **[Insérer ici une capture d'écran du terminal montrant la création du dossier de travail]**
+
 
 <img width="632" height="134" alt="Screenshot 2026-04-05 181718" src="https://github.com/user-attachments/assets/9a847f12-1943-4471-bda2-f008b7642e3a" />
 
@@ -104,7 +104,7 @@ cd ~/apk_analysis/$(date +%Y-%m-%d)
 
 L'APK est copié dans le dossier de travail fraîchement créé pour centraliser les fichiers de l'audit.
 
-> 📸 **[Insérer ici une capture montrant la présence de l'APK dans le répertoire]**
+
 
 <img width="727" height="151" alt="Screenshot 2026-04-05 181725" src="https://github.com/user-attachments/assets/08f07b3b-bf51-489b-aab4-dec89befbaf3" />
 
@@ -120,7 +120,7 @@ sha256sum app-debug.apk > apk_hash.txt
 cat apk_hash.txt
 ```
 
-> 📸 **[Insérer ici une capture montrant la sortie de la commande sha256sum]**
+
 
 <img width="724" height="128" alt="Screenshot 2026-04-05 181731" src="https://github.com/user-attachments/assets/542e878a-a2e5-4537-9943-7fef2732dd4d" />
 
